@@ -2,6 +2,7 @@ var validStrings, invalidStrings, // used for stringifyJSON and parseJSON specs
   weirdObjects; // used for stringifyJSON spec
 
 var stringifiableObjects = [
+  [true, "true", 'true', 9, null, undefined],
   9,
   null,
   true,
